@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title> Rock, Paper, Scissors </title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<div id="startScreen">
+	<h1> ROCK, PAPER, SCISSORS </h1>
+	<h2> Choose between rock, paper, or scissors and try to beat the computer </h2>
+	<h3> Rock beats scissors,
+	<br />
+	<img src="images/rock.jpg" alt="rock" width="200" height="200"> <img src="images/scissors.jpg" alt="scissors" width="200" height="200">
+	<br />
+	Scissors beats paper,
+	<br />
+	<img src="images/scissors.jpg" alt="scissors" width="200" height="200"> <img src="images/paper.jpg" alt="paper" width="200" height="200">
+	<br />
+	Paper beats rock
+	<br />
+	<img src="images/paper.jpg" alt="paper" width="200" height="200"> <img src="images/rock.jpg" alt="rock" width="200" height="200"> </h3>
+</div>
+
+<div id="playScreen">
+	<br />
+	<h2> You: </h2>
+
+		<div id="player">
+			<span><img src="images/rock.jpg" id="rock" alt="rock" width="200" height="200"></span>
+			<span><img src="images/paper.jpg" id="paper" alt="paper" width="200" height="200"></span>
+			<span><img src="images/scissors.jpg" id="scissors" alt="scissors" width="200" height="200"></span>
+		</div>
+
+	<h2> Computer: </h2>
+	
+		<div id="computer">
+			<span><img src="images/rock.jpg" id="rock2" alt="rock" width="200" height="200"></span>
+			<span><img src="images/paper.jpg" id="paper2" alt="paper" width="200" height="200"></span>
+			<span><img src="images/scissors.jpg" id="scissors2" alt="scissors" width="200" height="200"></span>
+		</div>
+
+	<h3 id="count"> Plays remaining: 10 </h3>
+	
+	<h3 id="userWins"> Times You've Won: 0 </h3>
+
+	<h3 id="computerWins"> Times Computer Won: 0 </h3>
+
+	<h3 id="totalTies"> Times Tied: 0 </h3>
+	
+	<h4 id="playerChose"> &nbsp; </h4>
+	
+	<h4 id="cpuChose"> &nbsp; </h4>
+
+	<h2 id="output"> &nbsp; </h2>
+	
+</div>
+
+<div id="endScreen">
+	<br />
+	
+	<h1> GAME OVER </h1>
+	
+	<img src="images/end.gif" alt="heart" width="320" height="320">
+	
+	<h2 id="result"> &nbsp; </h2>
+	
+	<h3> Refresh to play again </h3>
+	
+</div>
+
+<br />
+
+<input type="button" id="btn" value="Play Game">
+
+<script src="script.js"></script>
+
+</body>
+</html>

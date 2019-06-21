@@ -1,0 +1,39 @@
+#startScreen {
+	background-color:#FAFCCB; 
+	width:750px; 
+	height:860px; 
+	display: block;
+	}
+
+#playScreen {
+	background-color:#FAFCCB; 
+	width:750px; 
+	height:860px; 
+	display: none;
+	}
+
+#endScreen {
+	background-color:#FAFCCB; 
+	width:750px; 
+	height:860px; 
+	display: none;
+	}
+
+div {
+	text-align: center;
+	}
+span {
+	padding:2px;
+	}
+h1 {
+	color: #689062;
+	}
+h2 {
+	color: #363535;
+	}
+h3 {
+	color: #ABCF8F;
+	}
+h4 {
+	color: #5C7459;
+	}
